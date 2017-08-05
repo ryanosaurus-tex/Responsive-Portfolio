@@ -1,57 +1,54 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
+
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">  
-  <title>Home</title>
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>About | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
 
-  <div class="header">
-    <header class="clearFix">
-      <h1>Ryan Williams</h1>                 
-      <nav class="mainNav">
-        <ul class="mainNavUL">
-          <li id="navButton1"><a class="navLink" href="index.html">About</a></li>            
-          <li id="navButton2"><a class="navLink" href="Portfolio.html">Portfolio</a></li>
-          <li id="navButton3"><a class="navLink" href="Contact.html">Contact</a></li>
-        </ul> 
-      </nav>            
-    </header>
-  </div>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <div class="section flexContent">
-    <section class="clearFix">
-      <article>
-        <h2>About Me</h2>
-        <hr />
-        <img id="headShot" src="./assets/images/headshot.JPG" alt="My headshot." />
-        <p>Welcome to my portfolio page. I have been designing content for the web for an entire week and its a lot of fun. Before becoming a web developer I've had a number of interesting and not-so-interesting jobs. I've been an animator, a research assistant for a wildlife biologist, a project manager for a property developer, and an estimator for a masonry company.</p>
-        <p>I like to create and have an interest in how complex systems function. Combined with my curious nature and attention to detail, these qualities give me confidence in my ability to succeed as a front-end web developer.</p>
-      </article>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
 
-      <aside>
-        <h3>Connect with Me</h3>
-        <hr id="connectHR" />
-        <div class="connect">
-          <a href="https://github.com/ryanosaurus-tex" target="_blank"><img class="socialIcon" src="./assets/images/github_icon.png" alt="Github Icon" /></a>
-        </div>
-        <div class="connect">
-          <a href="https://www.linkedin.com/in/ryan-williams-783642143/" target="_blank"><img class="socialIcon" src="./assets/images/linkedin_icon.png" alt="LinkedIn Icon" /></a>
-        </div>
-        <div class="connect">
-          <a href="https://stackoverflow.com/users/8328363/ryanoceros" target="_blank"><img class="socialIcon" src="./assets/images/stackoverflow_icon.png" alt="Stack Overflow Icon" /></a>
-        </div>
-      </aside>
+      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+
+      <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
+
+      <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
     </section>
   </div>
 
-  <div class="footer">
-    <footer>
-      <h4>&copy; Copyright 2017 Ryan Williams</h4>
-    </footer>
-  </div>
-
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Your Name
+    </div>
+  </footer>
 </body>
+
 </html>
