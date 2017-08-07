@@ -243,9 +243,9 @@ input[type=submit] {
 }
 
 
-/* MEDIA QUERIES */
+/* ///////MEDIA QUERIES///////// */
 
-
+/* @ 640px */
 @media screen and (max-width: 640px) {
 
   #logo {
@@ -307,6 +307,41 @@ nav a {
   width: 100%;
   height: auto;
   margin: 0 auto 1rem;
+}
+
+}
+
+/* @ 768px */
+@media screen and (min-width: 768px) {
+  .sidebar {
+  float: none;
+  width: 95%;
+  max-width: initial;
+  padding: 30px;
+  margin: 0 auto 5%;  
+}
+
+.main-section {
+  float: none;
+  width: 95%;
+  max-width: initial;
+  padding: 30px;
+  margin: 2.5% auto;  
+}
+
+header div.container {
+  width: 95%;
+  max-width: initial;
+  margin: 0 auto;
+  clear: both;
+}
+
+.auth-image {
+  float: left;
+  width: 50%;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
 }
 
 }
