@@ -270,6 +270,7 @@ nav {
   float: none;
   width: 100%;
   margin: 0 auto;
+
   
 }
 
@@ -285,6 +286,27 @@ nav a {
   border-left: 1px solid #efefef;
 }
 
+.sidebar {
+  float: none;
+  width: 95%;
+  max-width: initial;
+  padding: 30px;
+  margin: 0 auto 5%;  
+}
 
+.main-section {
+  float: none;
+  width: 95%;
+  max-width: initial;
+  padding: 30px;
+  margin: 2.5% auto;  
+}
+
+.auth-image {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+}
 
 }
