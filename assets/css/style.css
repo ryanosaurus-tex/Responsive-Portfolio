@@ -312,7 +312,7 @@ nav a {
 }
 
 /* @ 768px */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 641px) and (max-width: 768px) {
   .sidebar {
   float: none;
   width: 95%;
@@ -344,4 +344,41 @@ header div.container {
   margin-right: 25px;
 }
 
+}
+
+/* @ 980px */
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+    .sidebar {
+  float: right;
+  width: 28%;
+  max-width: initial;
+  padding: 30px;
+  margin: 0 13.5% 5% 1%;  
+}
+
+.main-section {
+  float: left;
+  width: 40%;
+  max-width: initial;
+  padding: 30px;
+  margin: 0 1% 5% 13.5%;  
+}
+
+header div.container {
+  width: 73%;
+  max-width: initial;
+  margin: 0 auto;
+  clear: both;
+}
+
+.auth-image {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+}
 }
