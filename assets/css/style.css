@@ -309,6 +309,18 @@ nav a {
   margin: 0 auto 1rem;
 }
 
+.work {
+  position: relative;
+  float: none;
+  width: 95%;
+  margin: 20px auto 25px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: auto;
+}
+
 }
 
 /* @ 768px */
@@ -344,6 +356,16 @@ header div.container {
   margin-right: 25px;
 }
 
+.work {
+  position: relative;
+  display: inline-block;
+  float: none;
+  width: 48%;
+  margin: 1rem 0 1rem;
+  overflow: auto;
+}
+.work:nth-child(even) {
+  margin-right: 1rem;
 }
 
 /* @ 980px */
@@ -380,5 +402,4 @@ header div.container {
   margin-right: 25px;
 }
 
-}
 }
